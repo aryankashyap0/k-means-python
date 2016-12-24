@@ -5,13 +5,12 @@ from sklearn.cluster import KMeans
 
 style.use('ggplot')
 
-# Some X and y Values to plot on the graph
-x = [1, 5, 1.5, 8, 1, 9]
-y = [2, 8, 1.8, 8, 0.6, 11]
+# Some X and y Values to plot on the graph (some random plots)
+x = [1, 5, 1.5, 8, 1, 9, 12, 14, 15, 16, 18, 21, 25, 12, 36, 34, 2.3, 3.5 , 1.56, 8.75, 9.10349304, 13.56, 67.4, 75, 76, 34, 64, 56, 39, 50, 32, 56, 79, 37, 64]
+y = [2, 8, 1.8, 8, 0.6, 11, 13, 16, 13, 2.4, 3.2, 1.2, 12, 76, 67, 8, 1.45, 0.65, 3.24, 1.56, 2.34, 8.90, 9.6, 32, 45 ,65, 34 ,67, 46, 54, 72, 61, 37, 43, 78]
 
 plt.scatter(x,y)
 
-# for the first time running dont comment this out for the second time comment it out
 plt.show()
 
 X = np.array([[1, 2], 
@@ -19,7 +18,7 @@ X = np.array([[1, 2],
 	          [1.5, 1.8], 
 	          [8, 8],
 	          [1, 0.6],
-	          [9, 11], 
+	          [9, 11]
 	          ])
 
 # k - means algorthm
